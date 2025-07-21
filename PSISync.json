@@ -1,6 +1,6 @@
 {
-  "name": "PSISync App",
-  "short_name": "PSISyncApp",
+  "name": "PSISync",
+  "short_name": "PSISync",
   "start_url": "https://psisync.softr.app",
   "display": "standalone",
   "background_color": "#ffffff",
