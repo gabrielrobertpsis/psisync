@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PSISync</title>
 
-    <!-- Link to the manifest file -->
+    <!-- Correct path to manifest -->
     <link rel="manifest" href="/psisync/PSISync.json" />
     <meta name="theme-color" content="#007bff" />
   </head>
   <body>
     <p>Redirecting to Softr app...</p>
     <script>
-      window.location.href = "https://psisync.softr.app/";
+      // Wait 3 seconds to give Chrome time to detect the manifest
+      setTimeout(function () {
+        window.location.href = "https://psisync.softr.app/";
+      }, 3000);
     </script>
   </body>
 </html>
